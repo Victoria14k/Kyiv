@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A front-end developer from Ukraine. A certified specialist with the basic knowledge of HTML, CSS, JavaScript and Responsive projects.">
+    <title>Kyiv</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+      integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://kit.fontawesome.com/d2bdab263e.js"
+      crossorigin="anonymous"
+    ></script>
+</head>
+<style>
+    body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: url(images/background-photo.jpeg),linear-gradient(179.4deg, rgb(12, 20, 69) -16.9%, rgb(29, 7, 36) 119.9%);
+
+    }
+    .nav li {
+    display: inline;
+    list-style: none;
+    color: white;
+      text-decoration: none;
+    }
+    nav a {
+    text-decoration: none;
+    color: white;
+    transition: all 100ms ease-in-out;
+
+}
+nav a:hover,
+nav li.active a {
+    color: yellow;
+}
+    h1, h2, h3 {
+        text-align: center;
+        color: white;
+      
+    }
+    .about-kyiv {
+      display: block;
+      text-align: center;
+      color: white;
+      margin: 0 15px;
+      padding: 15px;
+    }
+    .restaurants, .shows, .viewpoint {
+      text-align: center;
+      color: white;
+    }
+    footer {
+      display: block;
+     text-align: center;
+      color:white;
+      margin-bottom: 10px;
+    }
+    .mail {
+  text-align: center;
+  color: white;
+  font-size: 15px;
+  text-decoration: none;
+  margin-top: 0;
+}
+.mail:hover {
+  text-decoration: underline;
+  color: yellow;
+}
+</style>
+<body>
+  <div class="container">
+      <nav class="d-flex justify-content-between">
+      <ul>
+        <li class="active">
+          <a href="#" title="Homepage">Home</a>
+        </li>
+          <li>
+          <a href="#" title="About Kyiv">About Kyiv </a>
+        </li>
+        <li>
+          <a href="#" title="Viewpoints">Viewpoints</a>
+        </li>
+        <li>
+          <a href="#" title="Places to eat">Restaurants</a>
+        </li>
+        <li>
+          <a href="#" title="Shows">Shows</a>
+        </li>
+
+      </ul>
+      </div>
+    </nav>
+    <h1>
+        Welcome to Kyiv!
+    </h1>
+    <h2>The most romantic city in the world</h2>
+    <h3>Feel the romance during the war</h3>
+    <div class="about-kyiv">
+      <div class="mb-5"></div>
+    Kyiv is beautiful in every season and every time of the day. Even in the darkness of blackouts one can feel its romance. Kyiv is an anchient city on the Dnipro river with gorgeous churches, beautiful museums, grand boulevars, prospects and charming streets in the center of the city. There are lots of cosy and warm restaurants and cafes all around the town with yammy food from all around the world. During the war we are sometimes out of electricity but we have light in our hearts. We are alive, warm and hostile as usually, we get used to work and live during regular blackouts, and we can illuminate everything. 
+    </div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-6">
+      <div class="col d-sm-none d-md-block">
+          <img
+            src="images/restaurant.jpg"
+            class="img-fluid border border-white"
+            alt="restaurant"
+          />
+      </div>
+        </div>
+        <div class="col-6">
+          <div class="restaurants">
+            <h4 class="mt-5">Meal with candles</h4>
+            <p class="mt-5">
+              What is more romantic than dinner with candles! Even when there are no lights in the streets you can always find a nice place to eat. Restaurants and cafes prepare fresh dishes and serve them with candles. You can eat famous Chicken Kyiv and other Ukrainian delicious food. Isn't that romantic?!
+            </p>
+             <a
+              href="#"
+              class="btn btn-light" title="Restaurants"
+              >Find places to eat</a
+            >
+          
+    </div>
+
+  </div>
+
+</div>
+<div class="row mt-3">
+        <div class="col-6">
+          <div class="shows">
+            <h2 class="mt-5">Shows with candles</h2>
+             <p>Cultural life in the city never stops. The theatres work even during the war because music help to keep our minds and spirit. And there are lots of concerts with candles. Isn't it romantic?
+           </p>
+            <a href="#" class="btn btn-light">Find more shows</a>
+          </div>
+        </div>
+        <div class="col d-sm-none d-md-block">
+          <img src="images/jamala.jpg" class="img-fluid border border-white" alt="Jamala's_show" />
+        </div>
+      </div>
+  <div class="row">
+    <div class="col-6">
+      <div class="col d-sm-none d-md-block">
+          <img
+            src="images/volodymyr-hill.jpg"
+            class="img-fluid border border-white"
+            alt="viewpoint"
+          />
+      </div>
+        </div>
+        <div class="col-6">
+          <div class="viewpoint">
+            <h4 class="mt-5">Gorgeous views</h4>
+            <p>
+              There are lots of viewpoints to enjoy gorgeous views from the right bank of the Dnipro river with its famous parks. You can see the river itself and illuminated bridges across it. There are lots of beautiful churches with tall bell towers to see the city. Isn't that romantic?!
+            </p>
+             <a
+              href="#" 
+              class="btn btn-light" title="Viewpoints"
+              >Find more viewpoints</a>
+          
+    </div>
+
+  </div>
+
+</div>
+        
+<footer>
+  <div class="contact">
+      <small>Contact me</small>
+      <br />
+      <a href="mailto:victoria14k@gmail.com" class="mail">
+        victoria14k@gmail.com</a
+      >
+    </div>
+</footer>
+</body>
+</html>
